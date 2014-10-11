@@ -1,0 +1,1171 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.opengroup.org/archimate/interchange/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     ontologyIRI="http://www.opengroup.org/archimate/interchange/ArchiMate_V0.06.owl">
+    <Prefix name="" IRI="http://webprotege.stanford.edu/project/DDicA5hR2oQHUP6Zc2RO5n#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="archimate" IRI="http://www.opengroup.org/archimate/interchange/"/>
+    <Prefix name="webprotege" IRI="http://protege.stanford.edu/webprotege/"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This ontology was generated from an ontology revision in WebProtégé http://webprotege.stanford.edu</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:date"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">Nov 20, 2013 5:49:06 AM</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jamie Knowles</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="ActiveStructureElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="AllConcepts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ApplicationCollaboration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ApplicationComponent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ApplicationFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ApplicationInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ApplicationInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ApplicationLayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ApplicationService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ArchiMateConcept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Artifact"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Assessment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BehavioralConcepts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessActor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessCollaboration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessEvent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessInteraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessLayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessProcess"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessRole"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="BusinessService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="CommunicationPath"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Constraint"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Contract"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="DataObject"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Deliverable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Driver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Gap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Goal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="ImplementationAndMigrationLayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InfrastructureFunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InfrastructureInterface"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="InfrastructureService"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Location"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Meaning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="MotivationLayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Network"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Node"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="PassiveStructureElement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Plateau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Principle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Product"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Representation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="SystemSoftware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="TechnologyLayer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="Value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="WorkPackage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Accesses"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="AssignedTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="AssociatedWith"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="FlowsTo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Influences"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsAggregationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsCompositionOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsGroupingOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="IsSpecializationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Realizes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="Triggers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="UsedBy"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="ActiveStructureElement"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="AllConcepts"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationCollaboration"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationCollaboration"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationCollaboration"/>
+        <Class IRI="ApplicationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationComponent"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationComponent"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationComponent"/>
+        <Class IRI="ApplicationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationFunction"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationFunction"/>
+        <Class IRI="ApplicationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationFunction"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationInteraction"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationInteraction"/>
+        <Class IRI="ApplicationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationInteraction"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationInterface"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationInterface"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationInterface"/>
+        <Class IRI="ApplicationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationLayer"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationService"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationService"/>
+        <Class IRI="ApplicationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ApplicationService"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ArchiMateConcept"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Artifact"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Artifact"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Artifact"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Assessment"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Assessment"/>
+        <Class IRI="MotivationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BehavioralConcepts"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessActor"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessActor"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessActor"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessCollaboration"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessCollaboration"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessCollaboration"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessCollaboration"/>
+        <Class IRI="BusinessRole"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessEvent"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessEvent"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessEvent"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessFunction"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessFunction"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessFunction"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessInteraction"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessInteraction"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessInteraction"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessLayer"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessObject"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessObject"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessObject"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessProcess"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessProcess"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessProcess"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessRole"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessRole"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessRole"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessService"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessService"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="BusinessService"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CommunicationPath"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CommunicationPath"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="CommunicationPath"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Constraint"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Constraint"/>
+        <Class IRI="MotivationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contract"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contract"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contract"/>
+        <Class IRI="BusinessObject"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Contract"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DataObject"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DataObject"/>
+        <Class IRI="ApplicationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="DataObject"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Deliverable"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Deliverable"/>
+        <Class IRI="ImplementationAndMigrationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Device"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Device"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Device"/>
+        <Class IRI="Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Device"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Driver"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Driver"/>
+        <Class IRI="MotivationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gap"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Gap"/>
+        <Class IRI="ImplementationAndMigrationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Goal"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Goal"/>
+        <Class IRI="MotivationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="ImplementationAndMigrationLayer"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureFunction"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureFunction"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureFunction"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureInterface"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureInterface"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureInterface"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureService"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureService"/>
+        <Class IRI="BehavioralConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="InfrastructureService"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Location"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Location"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Location"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Meaning"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Meaning"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Meaning"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="MotivationLayer"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Network"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Network"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Network"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Node"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Node"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Node"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="PassiveStructureElement"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Plateau"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Plateau"/>
+        <Class IRI="ImplementationAndMigrationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Principle"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Principle"/>
+        <Class IRI="MotivationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Product"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Product"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Product"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Representation"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Representation"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Representation"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Requirement"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Requirement"/>
+        <Class IRI="MotivationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Stakeholder"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Stakeholder"/>
+        <Class IRI="MotivationLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SystemSoftware"/>
+        <Class IRI="ActiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SystemSoftware"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SystemSoftware"/>
+        <Class IRI="Node"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="SystemSoftware"/>
+        <Class IRI="TechnologyLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="TechnologyLayer"/>
+        <Class IRI="ArchiMateConcept"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Value"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Value"/>
+        <Class IRI="BusinessLayer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="Value"/>
+        <Class IRI="PassiveStructureElement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WorkPackage"/>
+        <Class IRI="AllConcepts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="WorkPackage"/>
+        <Class IRI="ImplementationAndMigrationLayer"/>
+    </SubClassOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Accesses"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="AssignedTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="AssociatedWith"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="FlowsTo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Influences"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsAggregationOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsCompositionOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsGroupingOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="IsSpecializationOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Realizes"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="Triggers"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="UsedBy"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Accesses"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="AssignedTo"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="AssociatedWith"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="FlowsTo"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Influences"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsAggregationOf"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsCompositionOf"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsGroupingOf"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="IsSpecializationOf"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Realizes"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="Triggers"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="UsedBy"/>
+        <Class IRI="ArchiMateConcept"/>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="ArchiMateConcept"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Accesses</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Accesses</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ActiveStructureElement</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Active Structure Element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AllConcepts</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">All Concepts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ApplicationCollaboration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Application Collaboration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ApplicationComponent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Application Component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ApplicationFunction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Application Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ApplicationInteraction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Application Interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ApplicationInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Application Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ApplicationLayer</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Application Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ApplicationService</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Application Service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ArchiMateConcept</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ArchiMate Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Artifact</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Artifact</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Assessment</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Assessment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AssignedTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Assigned To</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>AssociatedWith</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Associated With</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BehavioralConcepts</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Behavioral Concepts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessActor</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Actor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessCollaboration</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Collaboration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessEvent</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessFunction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessInteraction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessLayer</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessObject</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessProcess</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessRole</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>BusinessService</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Business Service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>CommunicationPath</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Communication Path</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Constraint</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Constraint</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Contract</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Contract</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>DataObject</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Data Object</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Deliverable</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Deliverable</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Device</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Device</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Driver</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Driver</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>FlowsTo</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Flows To</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Gap</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Gap</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Goal</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Goal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>ImplementationAndMigrationLayer</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Implementation and Migration Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Influences</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Influences</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>InfrastructureFunction</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Infrastructure Function</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>InfrastructureInterface</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Infrastructure Interface</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>InfrastructureService</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Infrastructure Service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsAggregationOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Is Aggregation Of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsCompositionOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Is Composition Of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsGroupingOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Is Grouping Of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>IsSpecializationOf</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Is Specialization Of</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Location</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Meaning</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Meaning</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>MotivationLayer</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Motivation Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Network</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Network</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Node</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Node</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>PassiveStructureElement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Informational Element</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Plateau</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Plateau</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Principle</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Principle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Product</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Product</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Realizes</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Realizes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Representation</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Representation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Requirement</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Requirement</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Stakeholder</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Stakeholder</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>SystemSoftware</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">System Software</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>TechnologyLayer</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Technology Layer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Triggers</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Triggers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>UsedBy</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Used By</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Value</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>WorkPackage</IRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Work Package</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:topDataProperty</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ArchiMate Properties</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>owl:topObjectProperty</AbbreviatedIRI>
+        <Literal xml:lang="en" datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ArchiMate Relations</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

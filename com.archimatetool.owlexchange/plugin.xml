@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.8"?>
+<plugin>
+   <extension
+         point="com.archimatetool.editor.exportHandler">
+      <exportHandler
+            class="com.archimatetool.owlexchange.OWLExchangeExportProvider"
+            id="com.archimatetool.openexchange.exportHandler"
+            label="Model To OWL Exchange Format...">
+      </exportHandler>
+   </extension>
+   <extension
+         point="com.archimatetool.editor.importHandler">
+      <importHandler
+            class="com.archimatetool.owlexchange.OWLExchangeImportProvider"
+            id="com.archimatetool.openexchange.importHandler"
+            label="OWL Exchange Model...">
+      </importHandler>
+   </extension>
+
+</plugin>
