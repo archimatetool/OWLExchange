@@ -99,6 +99,9 @@ public class OWLMapper implements IOWLExchangeGlobals {
     public static IRI IRI_TRIGGERS = IRI.create(OPEN_GROUP_INTERCHANGE_IRI_STRING + "Triggers");
     public static IRI IRI_USED_BY = IRI.create(OPEN_GROUP_INTERCHANGE_IRI_STRING + "UsedBy");
     public static IRI IRI_USES = IRI.create(OPEN_GROUP_INTERCHANGE_IRI_STRING + "Uses");
+    
+    // Junction
+    public static IRI IRI_JUNCTION = IRI.create(OPEN_GROUP_INTERCHANGE_IRI_STRING + "Junction");
 
     // Class mapping of IRI strings to Element Eobjects
     private static Map<IRI, EClass> IRI_ElementMapping = new Hashtable<IRI, EClass>();
@@ -158,6 +161,9 @@ public class OWLMapper implements IOWLExchangeGlobals {
         IRI_ElementMapping.put(IRI_PLATEAU, IArchimatePackage.eINSTANCE.getPlateau());
         IRI_ElementMapping.put(IRI_GAP, IArchimatePackage.eINSTANCE.getGap());
         
+        // Junction
+        IRI_ElementMapping.put(IRI_JUNCTION, IArchimatePackage.eINSTANCE.getJunction());
+
         // Relations
         IRI_RelationMapping.put(IRI_ASSIGNED_TO, IArchimatePackage.eINSTANCE.getAssignmentRelationship());
         IRI_RelationMapping.put(IRI_ACCESSES, IArchimatePackage.eINSTANCE.getAccessRelationship());
@@ -169,7 +175,7 @@ public class OWLMapper implements IOWLExchangeGlobals {
         IRI_RelationMapping.put(IRI_FLOWS_TO, IArchimatePackage.eINSTANCE.getFlowRelationship());
         IRI_RelationMapping.put(IRI_REALIZES, IArchimatePackage.eINSTANCE.getRealisationRelationship());
         IRI_RelationMapping.put(IRI_IS_SPECIALIZATION_OF, IArchimatePackage.eINSTANCE.getSpecialisationRelationship());
-        IRI_RelationMapping.put(IRI_INFLUENCES, IArchimatePackage.eINSTANCE.getInfluenceRelationship());
+        IRI_RelationMapping.put(IRI_INFLUENCES, IArchimatePackage.eINSTANCE.getInfluenceRelationship());        
     }
     
     // Relations mapping
